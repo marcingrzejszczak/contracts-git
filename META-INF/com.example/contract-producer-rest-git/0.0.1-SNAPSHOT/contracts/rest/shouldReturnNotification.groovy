@@ -5,6 +5,7 @@ org.springframework.cloud.contract.spec.Contract.make {
     description("""
         Get notification by id
     """)
+    ignored()
     // input to the contract
     request {
         url "/notifications/1"
